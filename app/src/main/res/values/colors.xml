@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="d_white">#F5F5F5</color>
+    <color name="dd_blue">#041700</color>
+    <color name="d_blue">#031424</color>
+    <color name="blue">#0C2136</color>
+    <color name="l_blue">#1E3F66</color>
+    <color name="orange">#D9850E</color>
+    <color name="gold">#CCA928</color>
+    <color name="d_gold">#CDA533</color>
+</resources>

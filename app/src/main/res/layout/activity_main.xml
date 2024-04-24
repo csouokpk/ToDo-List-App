@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/d_blue">
+
+    <!-- TextView for displaying the heading "Comments..." -->
+    <TextView
+        android:id="@+id/addNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginStart="21dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Comments..."
+        android:textColor="@color/orange"
+        android:textSize="24sp" />
+
+    <!-- ImageView for the search button -->
+    <ImageView
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="17dp"
+        android:src="@drawable/searchimg" />
+
+    <!-- View for adding empty rectangular space -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/addNoteHeading"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/g_border"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/poppins"
+        android:maxLines="1"
+        android:padding="12dp"
+        class="" />
+
+    <!-- FloatingActionButton for adding comments -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/orange"
+        android:src="@drawable/baseline_add_comment_24"
+        app:tint="@color/blue" />
+
+
+
+    <ImageView
+        android:id="@+id/imgeditView"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/edit" />
+
+
+    <ImageView
+        android:id="@+id/imgdelete2View"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="355dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/bin" />
+
+
+</RelativeLayout>
